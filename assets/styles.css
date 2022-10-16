@@ -1,0 +1,29 @@
+.box {
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  animation: colorTranslate 5000ms infinite ease;
+}
+
+@keyframes colorTranslate {
+  0% {
+    transform: translate(0%, 200%);
+    background-color: #1200ef;
+  }
+  25% {
+    transform: translate(200%, 200%);
+    background-color: #0b9702;
+  }
+  50% {
+    transform: translate(200%, 0%);
+    background-color: #f5ff09;
+  }
+  75% {
+    transform: translate(0%, 0%);
+    background-color: #e70300;
+  }
+  100% {
+    transform: translate(0%, 200%);
+    background-color: #1200ef;
+  }
+}
